@@ -1,0 +1,17 @@
+import random
+import string
+
+# Define character pools
+letters = string.ascii_letters
+digits = string.digits
+special_chars = string.punctuation
+all_chars = letters + digits + special_chars
+
+# Get password length from user
+password_length = int(input("Enter the desired length for your password: "))
+
+# Generate random password
+password = ''.join(random.choices(all_chars, k=password_length))
+
+# Display the password
+print(f"Your randomly generated password is: {password}")
