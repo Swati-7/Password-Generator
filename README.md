@@ -1,6 +1,5 @@
 ### Password Generator  
 
-**Description:**  
 A simple Python-based password generator that creates strong, random passwords to enhance online security. This project helps users generate customizable passwords with options for length, characters, and complexity, ensuring better protection for sensitive accounts and data.  
 
 ---
